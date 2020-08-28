@@ -1,0 +1,2 @@
+05 8,11,14,17,20 * * * cd /root/code/logs && git pull && echo `date` > logs.log && git commit -a-m 'git auto commit' && git push origin master && echo `git log -1` >> /root/autoCommit.log
+
